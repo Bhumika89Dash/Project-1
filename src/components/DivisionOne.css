@@ -1,0 +1,113 @@
+/* Highlight Section */
+
+
+.highlight-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color:#203162;
+    padding: 60px;
+    width:100%;
+  }
+  
+  .left-content {
+    flex: 1;
+    font-size: 18px;
+    color:#ff9d42;
+    text-align: left;
+  }
+  
+  .right-content {
+    flex: 1.5;
+    text-align: left;
+  }
+  
+  
+  
+  .right-content p {
+    font-size: 20px;
+    color: white;
+    margin: 15px 0;
+    font-weight: bold;
+  }
+  
+  /* Jumbotron */
+  .jumbotron {
+    padding: 20px 20px;
+    background-color:peachpuff;
+    width:100%;
+  }
+  
+  .jumbotron h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .jumbotron p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .highlight-section {
+      flex-direction: column;
+      text-align: center;
+      
+    }
+  
+    .left-content,
+    .right-content {
+      text-align: center;
+    }
+  
+    .right-content h2 {
+      font-size: 20px;
+    }
+  
+    .right-content p {
+      font-size: 14px;
+    }
+  
+    .jumbotron h1 {
+      font-size: 28px;
+    }
+  
+    .jumbotron p {
+      font-size: 16px;
+    }
+  }
+  .fundraising-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* Adjust space between items */
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    text-align: center;
+}
+
+.fundraising-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+}
+
+.icon {
+    font-size: 22px; /* Adjust icon size */
+    color: #ff5733; /* Icon color */
+}
+
+.separator {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333; /* Separator color */
+}

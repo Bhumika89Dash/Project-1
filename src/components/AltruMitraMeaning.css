@@ -1,0 +1,27 @@
+.meaning-container {
+    background-color:#86c2f8 ;
+    padding: 30px;
+   
+    text-align: center;
+    width: 100%;
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 28px;
+    color: #203162;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: #ff5733;
+    font-size: 28px;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
