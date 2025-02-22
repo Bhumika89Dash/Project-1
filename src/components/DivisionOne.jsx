@@ -8,7 +8,7 @@ const DivisionOne = () => {
       {/* Highlight Section */}
       <div className="highlight-section">
         <div className="left-content">
-          <h2>Millions are making a difference with AltruMitra.</h2>
+          <h2 id="left-text">Millions are making a difference with AltruMitra.</h2>
         </div>
         <div className="right-content">
           <p>
@@ -19,7 +19,7 @@ const DivisionOne = () => {
       </div>
 
       {/* Jumbotron Section */}
-      <div className="jumbotron">
+      <div id="jumbo" className="jumbotron">
         <div className="fundraising-container">
           <div className="fundraising-item">
             <FaDonate className="icon" />

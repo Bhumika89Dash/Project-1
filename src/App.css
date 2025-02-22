@@ -5,7 +5,8 @@
 }
 body, html {
   width: 100%;
-  overflow-x: hidden; /* Prevents horizontal scroll */
+  overflow-x: hidden; 
+ 
 }
 .App{
   position:relative;
@@ -18,9 +19,24 @@ body, html {
   width: 100%;
   z-index: 1000;
   height:80px;
-  background-color: #f0f2f3;
+  background-color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   top:0; 
 }
 
 
+
+.content-wrapper {
+   
+  margin-top: 80px;
+  padding: 20px;
+  min-height: 100vh; 
+  background-color: #8baed2; 
+}
+.page-content {
+  margin-top: 80px; 
+  padding: 20px;
+}
+#footer{
+  background-color: blue;
+}

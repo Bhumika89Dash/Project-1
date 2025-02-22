@@ -1,4 +1,7 @@
-
+nav{
+  background-color:white;
+    z-index: 1000; 
+}
 .navbar {
   background-color:white;
     z-index: 1000; /* Ensures it stays on top */
@@ -14,10 +17,23 @@
   padding: 8px 16px;
   border-radius: 8px;
   transition: background-color 0.3s ease-in-out;
+  
 }
 
 /* Specific Styling for Sign In Button */
 .navbar-nav .nav-item.sign-in-btn .nav-link {
+  background: rgb(0,128,128);
+  background: linear-gradient(159deg, rgba(0,128,128,1) 0%, rgba(0,153,144,1) 100%);
+
+  color: white !important;
+  font-weight: bold;
+  border-radius: 40px;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  margin:5px;
+}
+.navbar-nav .nav-item.sign-up-btn .nav-link {
   background-color: #00bf63;
   color: white !important;
   font-weight: bold;
@@ -25,11 +41,21 @@
   padding: 10px 20px;
   text-align: center;
   display: inline-block;
+  margin:5px;
+  
+}
+.navbar-nav .nav-item.sign-in-btn .nav-link:hover {
+  background: rgb(0,128,128);
+  background: linear-gradient(159deg, rgb(1, 69, 69) 0%, rgba(0,153,144,1) 100%);
+
+
+}
+#logo{
+  width: 150px;
+  
+  margin-left: 20px;
 }
 
-.navbar-nav .nav-item.sign-in-btn .nav-link:hover {
-  background-color: #157f6c; /* Darker shade on hover */
-}
 
  
   

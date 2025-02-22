@@ -1,0 +1,46 @@
+.cards-container {
+    padding: 20px 0;
+    
+  }
+  .donate-button{
+    color:white;
+    background-color:rgba(32, 176, 4, 0.795);
+    
+  }
+  .donate-button:hover{
+    background-color:rgba(21, 110, 3, 0.795);
+  }
+  .progressbar{
+    
+  }
+  
+  .campaign-card {
+    height: 100%; /* Makes sure all cards have the same height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    width:200px;
+  }
+  .campaign-img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .amount-required {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  h1{
+    font-size:28px;
+    color:#203162;
+  }
+  
+  

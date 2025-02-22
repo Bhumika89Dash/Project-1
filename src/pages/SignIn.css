@@ -1,0 +1,48 @@
+/* Center the form in the middle */
+#subb{
+  background-color: #00bf63;
+}
+.signin-container {
+    position:fixed;
+    width:100%;
+    padding:80px;
+    margin-top:35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f6f769;
+    overflow:hidden;
+}
+  
+  /* Style the sign-in card */
+  .signin-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    
+  }
+  
+  /* Title styling */
+  .signin-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Forgot Password link */
+  .forgot-password {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  

@@ -1,0 +1,26 @@
+.jumbotron-custom {
+    background-color: #f8f9fa; /* Light gray Bootstrap-like color */
+    border-left: 5px solid #007bff; /* Blue left border for emphasis */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .Help{
+    padding:20px;
+  }
+  .innerhelp{
+    margin-top:20px;  }
+  
+  .jumbotron-custom p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+ #helpbut {
+    background-color: #884ea0;
+    border: none;
+    transition: 0.3s ease-in-out;
+  }
+  
+  

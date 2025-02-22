@@ -1,0 +1,73 @@
+.religious-container {
+    padding: 40px;
+    background-color: #f9f7ee;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 900px;
+    margin: 40px auto;
+  }
+  
+  .religious-title {
+    font-size: 28px;
+    color: #b68d40;
+    margin-bottom: 20px;
+  }
+  
+  .religious-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .religious-image {
+    width: 50%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  .religious-text {
+    width: 45%;
+    text-align: left;
+  }
+  
+  .religious-text p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .donate-button {
+    padding: 10px 20px;
+    background-color: #b68d40;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .donate-button:hover {
+    background-color: #a07832;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .religious-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .religious-image {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+  
+    .religious-text {
+      width: 100%;
+    }
+  }
+  

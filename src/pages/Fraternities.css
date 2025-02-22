@@ -1,0 +1,86 @@
+#hf{
+    color:#ff8c00;
+}
+.fraternities-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .fraternities-content {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+  }
+  
+  .fraternities-image {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .fraternities-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .fraternities-text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .fraternities-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .fraternities-text p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .fraternities-text ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .fraternities-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .fraternities-btn:hover {
+    background-color: #c67518;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .fraternities-content {
+      flex-direction: column;
+    }
+  
+    .fraternities-image {
+      max-width: 100%;
+    }
+  
+    .fraternities-text {
+      text-align: center;
+    }
+  }
+  

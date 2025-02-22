@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.logo-container {
+  display: flex;
+  align-items: center;
+  font-family: 'Pacifico', cursive; /* Stylish handwritten font */
+  font-size: 28px;
+  font-weight: bold;
+  color: #004aad; /* Deep blue */
+}
+
+.symbol {
+  width: 55px;
+  height: 55px;
+  background: rgb(0,128,128);
+background: linear-gradient(159deg, rgba(0,128,128,1) 0%, rgb(0, 81, 74) 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  border-radius: 50%;
+  margin-right: 12px;
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);
+}
+
+.logo-text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+ 
+  background: rgb(0,128,128);
+  background: linear-gradient(159deg, rgba(0,128,128,1) 0%, rgb(1, 80, 75) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

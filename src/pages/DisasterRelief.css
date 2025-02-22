@@ -1,0 +1,74 @@
+.disaster-relief-container {
+    padding: 40px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 900px;
+    margin: 40px auto;
+  }
+  
+  .disaster-title {
+    font-size: 28px;
+    color: #d9534f;
+    margin-bottom: 20px;
+  }
+  
+  .disaster-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .disaster-image {
+    width: 50%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+   
+  .disaster-text {
+    width: 45%;
+    text-align: left;
+  }
+  
+  .disaster-text p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  
+  #disaster-button {
+    padding: 10px 20px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #disaster-button:hover {
+    background-color: #dc143c;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .disaster-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .disaster-image {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+  
+    .disaster-text {
+      width: 100%;
+    }
+  }
+  

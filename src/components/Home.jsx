@@ -1,22 +1,31 @@
-import React from 'react'
-import './Home.css'
+import React from 'react';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import './Home.css';
+
 const Home = () => {
+  const navigate = useNavigate(); // Initialize navigation
+
   return (
     <div className="container">
       <div className="outer">       
         <div className="inner">
-        <h1>Empower Change</h1>
-        <p>Welcome to the Home page of AltruMitra!</p>
-        <div className="button-container">
-        <button className="primary-btn">Start a Fundraiser</button>
+          <p className="home-head">Empower Change&nbsp;</p>
         
-        </div>
-        </div>
-      </div> 
+          
+          
+          
+          
 
-
+          <div className="button-container">
+            <button className="primary-btn" onClick={() => navigate('/signin')}>
+              Start a Fundraiser
+            </button>
+          </div>
+          <p id="bottom-text">Join AltruMitra and be the reason <br></br> someone smiles today.&nbsp;</p>
+        </div>
+      </div>  
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

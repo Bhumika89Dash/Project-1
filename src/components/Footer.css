@@ -1,6 +1,6 @@
 /* Footer Styles */
 .footer {
-    background-color: #03164f;
+    background-color:#203169;
     color: white;
     padding: 40px 0;
   }
@@ -75,4 +75,6 @@
   h5{
     color:yellowgreen;
   }
-  
+  .contact-infop{
+    font-size: 8px;
+  }

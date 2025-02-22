@@ -1,0 +1,42 @@
+/* Prevent navbar overlap */
+.about-container {
+   
+    position:fixed;
+    width:100%;
+    padding:80px;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f6f7f1;
+    overflow:hidden;
+    font-size: 12px;
+    
+}
+.about-title{
+    font-size:22px;
+}
+.about-subtitle{
+
+    font-size:16px;
+}
+.about-list{
+    list-style-type:none;
+}
+@media (max-width: 768px) {
+    .about-container {
+        width: 95%;
+        padding: 20px;
+    }
+    
+    .about-title {
+        font-size: 22px;
+    }
+
+    .about-subtitle, .about-list li {
+        font-size: 14px;
+    }}
+
+
+/* Title */

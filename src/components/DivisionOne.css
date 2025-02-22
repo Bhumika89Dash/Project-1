@@ -13,9 +13,14 @@
   
   .left-content {
     flex: 1;
-    font-size: 18px;
+   
     color:#ff9d42;
     text-align: left;
+    
+  }
+  #left-text{
+    color:#ff9d42;
+    font-size: 30px;
   }
   
   .right-content {
@@ -33,7 +38,7 @@
   }
   
   /* Jumbotron */
-  .jumbotron {
+  #jumbo {
     padding: 20px 20px;
     background-color:peachpuff;
     width:100%;

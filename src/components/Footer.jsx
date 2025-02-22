@@ -1,18 +1,19 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Footer.css";
-import logo1 from "../assets/logo12.png";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaPhone, FaEnvelope } from "react-icons/fa";
+import LogoFooter from "./LogoFooter";
 
 const Footer = () => {
   return (
-    <footer className="footer jumbotron">
+    <footer id="footer-last" className="footer jumbotron">
       <div className="container">
         <div className="row">
           
           {/* First Column - Logo & Description */}
           <div className="col-md-4">
-            <img src={logo1} alt="AltruMitra Logo" className="footer-logo" />
+            <LogoFooter />
             <p className="footer-text">
               AltruMitra is dedicated to providing you with the tools you need to raise money for whatever your cause may be.
             </p>
@@ -43,7 +44,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Third Column - Follow Us */}
+          {/* Third Column - Follow Us & Contact */}
           <div className="col-md-4">
             <h5>FOLLOW US</h5>
             <ul className="social-links">
@@ -52,6 +53,15 @@ const Footer = () => {
               <li><a href="https://instagram.com" target="_blank"><FaInstagram /> Instagram</a></li>
               <li><a href="https://linkedin.com" target="_blank"><FaLinkedin /> LinkedIn</a></li>
             </ul>
+
+            {/* Contact Section */}
+            <div className="contact-info mt-3">
+              <h5>CONTACT US</h5>
+              <div className="contact-infop">
+              <p><FaPhone /> +91 98765 43210</p>
+              <p><FaEnvelope /> support@altrumitra.com</p></div>
+              
+            </div>
           </div>
 
         </div>
